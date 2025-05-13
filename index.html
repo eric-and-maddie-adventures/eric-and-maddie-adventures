@@ -97,9 +97,6 @@ function onEachFeature(feature, layer) {
 		layer.bindPopup(popupContent);
 	}
 
-var img = "<img src='Photos/test.jpg' />";
-
-
 const markerLayer = L.geoJSON([markers], {
 		style(feature) {
 			return feature.properties && feature.properties.style;
@@ -131,15 +128,6 @@ const markerLayer = L.geoJSON([markers], {
 		onEachFeature
 	}).addTo(map);
 
-
-var img = "<img src='Photos/test.jpg' />";
-var marker = new L.Marker([48.862312, 2.332317], {
-    icon: L.divIcon({
-        html: img,
-        className: 'image-icon',
-        iconSize: [48, 48]
-        }) 
-}).addTo(map);
 
 map.addEventListener('click', function (e)  {
 alert(e.latlng)
