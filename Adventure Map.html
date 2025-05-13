@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base target="_top">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+<title>Places We've Been</title>
+<link rel="icon" href="https://imgur.com/2tWGqen.png">
+	
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/esri-leaflet/3.0.8/esri-leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.5.1/gpx.js"></script>
+	<script src="mapdata.js" type="text/javascript"></script>
+
+<style>
+    body { margin:0; padding:0}
+    #map { position: absolute; top:0; bottom:0; left:0; width:100%;}
+	.image-icon img {
+		height: 48px !important;
+		width: 48px !important;
+		border-radius: 50%;
+		border: solid;
+		border-color: green;
+		opacity: 0.8;
+}
+</style>
+
+</head>
+<body>
+<div id='map'></div>
+
+<script>
+const map = L.map('map', {
+		center: [57, -105],
+		zoom: 3.5
+	});
+	
+
+
+const basemaps = {
+		Topography: L.tileLayer.wms('http://ows.mundialis.de/services/service?', {
+			layers: 'TOPO-WMS'
+		}),
+
+		Places: L.tileLayer.wms('http://ows.mundialis.de/services/service?', {
+			layers: 'OSM-Overlay-WMS'
+		}),
+
+		'Topography, then places': L.tileLayer.wms('http://ows.mundialis.de/services/service?', {
+			layers: 'TOPO-WMS,OSM-Overlay-WMS'
+		}),
+		OpenStreetMap: L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		}),
+		Watercolor: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg', {
+		}),
+
+	};
+
+var overlays = {
+  "GEBCO - Contours": L.tileLayer(
+    "https://tiles.arcgis.com/tiles/C8EMgrsFcRFL6LrL/arcgis/rest/services/GEBCO_contours/MapServer/tile/{z}/{y}/{x}", {
+  }),
+    'IHO Mosaic': L.esri.imageMapLayer({
+      url: 'https://gis.ngdc.noaa.gov/arcgis/rest/services/multibeam_mosaic/ImageServer',
+    }),
+ "CHS NONNA-100": L.tileLayer.wms(
+    "https://data.chs-shc.ca/geoserver/ows?", {
+      layers: "nonna:NONNA 100",
+      format: "image/png",
+      transparent: true
+    }),
+  "UNB Amundsen Data": L.tileLayer(
+    "http://www.omg.unb.ca/~jmuggah/Bathy/{x}_{y}_{z}", {
+  }),
+};
+
+var layerControl = L.control
+  .layers(basemaps, overlays, {
+    position: "topright",
+    collapsed: false
+  })
+  .addTo(map);
+
+basemaps.OpenStreetMap.addTo(map);
+
+
+
+
+
+function onEachFeature(feature, layer) {
+		let popupContent = `<b><u>${feature.id}</u></b><br>`;
+		if (feature.properties && feature.properties.popupContent) {
+			popupContent += feature.properties.popupContent;
+		}
+		layer.bindPopup(popupContent);
+	}
+
+var img = "<img src='Photos/test.jpg' />";
+
+
+const markerLayer = L.geoJSON([markers], {
+		style(feature) {
+			return feature.properties && feature.properties.style;
+		},
+
+		onEachFeature,
+		pointToLayer(feature, latlng) {
+			return L.circleMarker(latlng, {
+				radius: 8,
+				fillColor: feature.properties.color,
+				color: '#000',
+				weight: 1,
+				opacity: 1,
+				fillOpacity: 0.8,
+			});
+		}
+}).addTo(map);
+
+	const roadtripLayer = L.geoJSON(roadtrip, {
+
+		filter(feature, layer) {
+			if (feature.properties) {
+				// If the property "underConstruction" exists and is true, return false (don't render features under construction)
+				return feature.properties.underConstruction !== undefined ? !feature.properties.underConstruction : true;
+			}
+			return false;
+		},
+
+		onEachFeature
+	}).addTo(map);
+
+
+var img = "<img src='Photos/test.jpg' />";
+var marker = new L.Marker([48.862312, 2.332317], {
+    icon: L.divIcon({
+        html: img,
+        className: 'image-icon',
+        iconSize: [48, 48]
+        }) 
+}).addTo(map);
+
+map.addEventListener('click', function (e)  {
+alert(e.latlng)
+  });
+
+
+
+</script>
+
+</body>
+</html>
