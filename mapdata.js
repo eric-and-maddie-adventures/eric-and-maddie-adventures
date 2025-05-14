@@ -154,6 +154,54 @@ var markers = {
 
 	    {"geometry": {
                 "type": "Point",
+                "coordinates": [-113.2622,50.4038]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "...",
+                "color": "Blue"
+            },
+            "id": "Vulcan"
+        },
+
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [-115.0631,49.5040]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "...",
+                "color": "Blue"
+            },
+            "id": "Fernie"
+        },
+
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [-116.0734,50.6200]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "...",
+                "color": "Blue"
+            },
+            "id": "Radium"
+        },
+
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [-115.3479,51.0884]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "...",
+                "color": "Blue"
+            },
+            "id": "Canmore"
+        },
+
+	    {"geometry": {
+                "type": "Point",
                 "coordinates": [106.68316724771255,10.771008051301273]
             },
             "type": "Feature",
