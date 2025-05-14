@@ -142,7 +142,7 @@ var markers = {
 
 	    {"geometry": {
                 "type": "Point",
-                "coordinates": [-79.178474,43.161299]
+                "coordinates": [-79.078474,43.241299]
             },
             "type": "Feature",
             "properties": {
