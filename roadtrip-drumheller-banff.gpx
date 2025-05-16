@@ -12,18 +12,7 @@
     <!--url>https://www.google.co.uk/maps/dir/Banff, AB, Canada/Calgary, Alberta, Canada/drumheller/@51.0065741,-115.0979445,8z/data=!4m20!4m19!1m5!1m1!1s0x5370ca45910c4afd:0xcaafaebedaac9463!2m2!1d-115.5707903!2d51.1784304!1m5!1m1!1s0x537170039f843fd5:0x266d3bb1b652b63a!2m2!1d-114.0718831!2d51.0447331!1m5!1m1!1s0x53730d8007f41f1f:0x4c51598bc0919059!2m2!1d-112.7106588!2d51.4619438!3e0?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw==&hl=en</url-->
     <time>2025-05-16T12:47:48Z</time>
   </metadata>
-  <wpt lat="51.1784304" lon="-115.5707903">
-    <name>Banff</name>
-    <desc>Banff, Alberta, Canada</desc>
-  </wpt>
-  <wpt lat="51.0447331" lon="-114.0718831">
-    <name>Calgary</name>
-    <desc>Calgary, Alberta, Canada</desc>
-  </wpt>
-  <wpt lat="51.4619438" lon="-112.7106588">
-    <name>drumheller</name>
-    <desc>Drumheller, Alberta, Canada</desc>
-  </wpt>
+  
 <trk>
   <name>Banff to drumheller</name>
   <number>1</number>
