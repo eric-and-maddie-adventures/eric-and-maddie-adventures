@@ -132,6 +132,9 @@ const gpxurl = 'https://raw.githubusercontent.com/eric-and-madz-adventures/eric-
 const gpxoptions = {
         async: true,
         polyline_options: { color: 'red' },
+	marker_options: {
+   		 iconSize: [0, 0],
+		}
       };
 	
 const gpx = new L.GPX(gpxurl, gpxoptions).on('loaded', (e) => {
