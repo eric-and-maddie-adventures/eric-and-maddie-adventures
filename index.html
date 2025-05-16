@@ -116,7 +116,6 @@ const markerLayer = L.geoJSON([markers], {
 }).addTo(map);
 
 	const roadtripLayer = L.geoJSON(roadtrip, {
-
 		filter(feature, layer) {
 			if (feature.properties) {
 				// If the property "underConstruction" exists and is true, return false (don't render features under construction)
@@ -128,18 +127,6 @@ const markerLayer = L.geoJSON([markers], {
 		onEachFeature
 	}).addTo(map);
 
-const roadtripLayer = L.geoJSON(roadtrip, {
-
-		filter(feature, layer) {
-			if (feature.properties) {
-				// If the property "underConstruction" exists and is true, return false (don't render features under construction)
-				return feature.properties.underConstruction !== undefined ? !feature.properties.underConstruction : true;
-			}
-			return false;
-		},
-
-		onEachFeature
-	}).addTo(map);
 
 map.addEventListener('click', function (e)  {
 alert(e.latlng)
