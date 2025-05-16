@@ -16,7 +16,7 @@
 
 <style>
     body { margin:0; padding:0}
-    #map { position: absolute; top:0; bottom:0; left:0; width:100%; attributionControl: false;}
+    #map { position: absolute; top:0; bottom:0; left:0; width:100%;}
 	.image-icon img {
 		height: 48px !important;
 		width: 48px !important;
@@ -34,7 +34,8 @@
 <script>
 const map = L.map('map', {
 		center: [57, -105],
-		zoom: 3.5
+		zoom: 3.5,
+		attributionControl: false
 	});
 	
 
