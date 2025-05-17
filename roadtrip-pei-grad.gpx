@@ -12,18 +12,7 @@
     <!--url>https://www.google.co.uk/maps/dir/Cavendish, PE, Canada/Charlottetown, PE, Canada/Fredericton, NB, Canada/@46.1862107,-65.5743862,8.26z/data=!4m20!4m19!1m5!1m1!1s0x4b5fbf9f119031fd:0xa6378ec95c4735db!2m2!1d-63.378674!2d46.491261!1m5!1m1!1s0x4b5e52ddd47f83c5:0x5a5777b89f519b27!2m2!1d-63.1310704!2d46.23824!1m5!1m1!1s0x4ca4220ba498fb2b:0xe7de2f297a415db4!2m2!1d-66.6431151!2d45.9635895!3e0?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw==&hl=en</url-->
     <time>2025-05-17T07:15:05Z</time>
   </metadata>
-  <wpt lat="46.491261" lon="-63.378674">
-    <name>Cavendish</name>
-    <desc>Cavendish, Prince Edward Island C0A 1N0, Canada</desc>
-  </wpt>
-  <wpt lat="46.23824" lon="-63.1310704">
-    <name>Charlottetown</name>
-    <desc>Charlottetown, Prince Edward Island, Canada</desc>
-  </wpt>
-  <wpt lat="45.9635895" lon="-66.6431151">
-    <name>Fredericton</name>
-    <desc>Fredericton, New Brunswick, Canada</desc>
-  </wpt>
+
 <trk>
   <name>Cavendish to Fredericton</name>
   <number>1</number>

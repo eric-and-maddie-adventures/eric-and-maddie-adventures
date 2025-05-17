@@ -12,38 +12,7 @@
     <!--url>https://www.google.co.uk/maps/dir/Calgary, Alberta/Vulcan, AB/Fernie, British Columbia/Findlay Falls Recreation Site, East Kootenay F, BC/Radium Hot Springs, BC/Johnston Canyon, Bow Valley Parkway, Improvement District No. 9, AB/Cochrane, AB/51.0448843,-114.0740533/@51.0425639,-114.0867247,15.77z/data=!4m45!4m44!1m5!1m1!1s0x537170039f843fd5:0x266d3bb1b652b63a!2m2!1d-114.0718831!2d51.0447331!1m5!1m1!1s0x5371ff19f4c7262b:0x438a78b1247b976b!2m2!1d-113.2621688!2d50.4038149!1m5!1m1!1s0x53656b8ebb3cfa2f:0xedc869944d79a167!2m2!1d-115.0630649!2d49.5040452!1m5!1m1!1s0x537aeb87b9861715:0x73e8d0c647f15c39!2m2!1d-115.8656709!2d50.1356713!1m5!1m1!1s0x537a6f24d273951f:0x8421a9bb8499e85f!2m2!1d-116.0733586!2d50.6200385!1m5!1m1!1s0x53774c0a78b99e5f:0xcdf7b71e1c62a13!2m2!1d-115.8398977!2d51.2455293!1m5!1m1!1s0x5371408275572407:0x500a39043510e80!2m2!1d-114.4667528!2d51.1917439!1m0!3e0?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw==&hl=en</url-->
     <time>2025-05-17T07:13:32Z</time>
   </metadata>
-  <wpt lat="51.0447331" lon="-114.0718831">
-    <name>Calgary</name>
-    <desc>Calgary, Alberta, Canada</desc>
-  </wpt>
-  <wpt lat="50.4038149" lon="-113.2621688">
-    <name>Vulcan</name>
-    <desc>Vulcan, Alberta T0L 2B0, Canada</desc>
-  </wpt>
-  <wpt lat="49.5040452" lon="-115.0630649">
-    <name>Fernie</name>
-    <desc>Fernie, British Columbia, Canada</desc>
-  </wpt>
-  <wpt lat="50.1356713" lon="-115.8656709">
-    <name>Findlay Falls Recreation Site</name>
-    <desc>Findlay Falls Recreation Site, East Kootenay F, BC V0B 1B0, Canada</desc>
-  </wpt>
-  <wpt lat="50.6200385" lon="-116.0733586">
-    <name>Radium Hot Springs</name>
-    <desc>Radium Hot Springs, British Columbia V0A 1M0, Canada</desc>
-  </wpt>
-  <wpt lat="51.2455293" lon="-115.8398977">
-    <name>Johnston Canyon</name>
-    <desc>Johnston Canyon, Bow Valley Pkwy, Improvement District No. 9, AB T1L 1K2, Canada</desc>
-  </wpt>
-  <wpt lat="51.1917439" lon="-114.4667528">
-    <name>Cochrane</name>
-    <desc>Cochrane, Alberta, Canada</desc>
-  </wpt>
-  <wpt lat="51.0448843" lon="-114.0740533">
-    <name>Calgary</name>
-    <desc>1000 5 St SW, Calgary, AB T2P 3V4, Canada</desc>
-  </wpt>
+
 <trk>
   <name>Calgary to Calgary</name>
   <number>1</number>

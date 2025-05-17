@@ -12,14 +12,7 @@
     <!--url>https://www.google.co.uk/maps/dir/145 Lucan Avenue, Waterloo, ON, Canada/Rogers Centre, Blue Jays Way, Toronto, ON, Canada/@43.6577118,-80.8987174,9.38z/data=!3m1!5s0x882b34d7b5b8b0d1:0xf6046bd76c586361!4m14!4m13!1m5!1m1!1s0x882bf46fbeef28f9:0xbdd0f32e71b4add0!2m2!1d-80.5121014!2d43.4622124!1m5!1m1!1s0x882b34d7b66a4a51:0xe210b2f6fe0b1405!2m2!1d-79.3894282!2d43.6415758!3e0?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw==&hl=en</url-->
     <time>2025-05-17T16:33:29Z</time>
   </metadata>
-  <wpt lat="43.4622124" lon="-80.5121014">
-    <name>145 Lucan Avenue</name>
-    <desc>145 Lucan Ave, Waterloo, ON N2J 1W6, Canada</desc>
-  </wpt>
-  <wpt lat="43.6415758" lon="-79.3894282">
-    <name>Rogers Centre</name>
-    <desc>Rogers Centre, 1 Blue Jays Way, Toronto, ON M5V 1J3, Canada</desc>
-  </wpt>
+
 <trk>
   <name>145 Lucan Avenue to Rogers Centre</name>
   <number>1</number>
