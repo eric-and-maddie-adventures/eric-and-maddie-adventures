@@ -127,7 +127,8 @@ const markerLayer = L.geoJSON([markers], {
 
 		onEachFeature
 	}).addTo(map);
-
+	
+//configure roadtrip linepaths
 const gpxurl = 'https://raw.githubusercontent.com/eric-and-madz-adventures/eric-and-madz-adventures.github.io/refs/heads/main/roadtrip-drumheller-banff.gpx';
 const gpxoptions = {
         async: true,
@@ -137,10 +138,33 @@ const gpxoptions = {
     		endIcon: 'https://user-images.githubusercontent.com/6753949/41509588-16212fda-721c-11e8-8650-dc1cdd619072.png',
   		},
       };
+new L.GPX(gpxurl, gpxoptions).addTo(map);
+
+const gpxurl1 = 'https://raw.githubusercontent.com/eric-and-madz-adventures/eric-and-madz-adventures.github.io/refs/heads/main/roadtrip-fernie.gpx';
+const gpxoptions1 = {
+        async: true,
+        polyline_options: { color: 'blue', weight: 5 },
+	markers: {
+    		startIcon: 'https://user-images.githubusercontent.com/6753949/41509588-16212fda-721c-11e8-8650-dc1cdd619072.png',
+    		endIcon: 'https://user-images.githubusercontent.com/6753949/41509588-16212fda-721c-11e8-8650-dc1cdd619072.png',
+  		},
+      };
+new L.GPX(gpxurl1, gpxoptions1).addTo(map);
+
+const gpxurl2 = 'https://raw.githubusercontent.com/eric-and-madz-adventures/eric-and-madz-adventures.github.io/refs/heads/main/roadtrip-toronto.gpx';
+new L.GPX(gpxurl2, gpxoptions1).addTo(map);
+
+const gpxurl3 = 'https://raw.githubusercontent.com/eric-and-madz-adventures/eric-and-madz-adventures.github.io/refs/heads/main/roadtrip-fernie.gpx';
+const gpxoptions3 = {
+        async: true,
+        polyline_options: { color: 'red', weight: 5 },
+	markers: {
+    		startIcon: 'https://user-images.githubusercontent.com/6753949/41509588-16212fda-721c-11e8-8650-dc1cdd619072.png',
+    		endIcon: 'https://user-images.githubusercontent.com/6753949/41509588-16212fda-721c-11e8-8650-dc1cdd619072.png',
+  		},
+      };
+new L.GPX(gpxurl3, gpxoptions3).addTo(map);
 	
-const gpx = new L.GPX(gpxurl, gpxoptions).on('loaded', (e) => {
-        map.fitBounds(e.target.getBounds());
-      }).addTo(map);
 	
 map.addEventListener('click', function (e)  {
 alert(e.latlng)
