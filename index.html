@@ -141,17 +141,7 @@ const markerLayer = L.geoJSON([markers], {
 		}
 }).addTo(map);
 
-	const roadtripLayer = L.geoJSON(roadtrip, {
-		filter(feature, layer) {
-			if (feature.properties) {
-				// If the property "underConstruction" exists and is true, return false (don't render features under construction)
-				return feature.properties.underConstruction !== undefined ? !feature.properties.underConstruction : true;
-			}
-			return false;
-		},
 
-		onEachFeature
-	}).addTo(map);
 	
 //configure roadtrip linepaths
 const gpxurl = 'https://raw.githubusercontent.com/eric-and-madz-adventures/eric-and-madz-adventures.github.io/refs/heads/main/roadtrip-drumheller-banff.gpx';
