@@ -125,7 +125,19 @@ var markers = {
                 "popupContent": "...",
                 "color": "Yellow"
             },
-            "id": "Costa Rica"
+            "id": "Costa Rica - Lola's"
+        },
+
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [-85.84073071500313,10.297679423883455]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "...",
+                "color": "Yellow"
+            },
+            "id": "Costa Rica - Tamarindo"
         },
 
 	    {"geometry": {
