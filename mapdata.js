@@ -1,7 +1,7 @@
 //marker dots
 //red = prior to 2022
-//pink = 2022
-//purple = 2023
+//purple = 2022
+//yellow = 2023
 //blue = 2024
 //green = 2025
 var markers = {
@@ -51,7 +51,7 @@ var markers = {
             "type": "Feature",
             "properties": {
                 "popupContent": "...",
-                "color": "Pink"
+                "color": "Purple"
             },
             "id": "Toronto"
         },
@@ -63,7 +63,7 @@ var markers = {
             "type": "Feature",
             "properties": {
                 "popupContent": "...",
-                "color": "Pink"
+                "color": "Purple"
             },
             "id": "Niagara-on-the-Lake"
         },
