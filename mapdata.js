@@ -26,7 +26,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We have visited Colin's cottage a bunch! In both the summer and winter. We shot bows, rode (kid-sized) ATVs, listened to Colin's dad & his buddies jamming, and just generally had a fun time.",
                 "color": "Red"
             },
             "id": "Colin's Cottage"
@@ -38,7 +38,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "In 2008 we went to Ottawa on a grade 8 field trip. I don't remember much about it tbh besides visiting the library of parliament. But it still counts!",
                 "color": "Red"
             },
             "id": "Ottawa"
@@ -50,7 +50,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "In 2011, we went on a field trip with our KCI grade 11 cohort (S-Trip). It was pretty much just an excuse for all the kids to get up to tomfoolery away from our parents. We set off the smoke alarm literally right after getting into the hotel by attempting to rip buckets haha. They had just finished telling us that if we smoked in the hotel, they would send us on the bus straight home.",
                 "color": "Red"
             },
             "id": "Quebec City"
@@ -62,7 +62,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We have been to Toronto many times! In 2022, we got a free hotel room at Hotel X paid for by UNB because I spoke at the Arcticnet annual conference. In Sept 2024 we saw the Blue Jays vs the Mets. We also went to The Ham mexican-asian fusion restaurant & got soft-shell crab for the first time. In January 2025 (verify this date), we took the train to see the Lion King. It ended up getting cancelled due to a performer being injured, so we got our tickets refunded & technically got to see the first bit for freeee muahaha. We also got very nice eggs benny as room service to our fancy hotel.",
                 "color": "Purple"
             },
             "id": "Toronto"
