@@ -70,7 +70,7 @@ var markers = {
 
 	    {"geometry": {
                 "type": "Point",
-                "coordinates": [-114.08818, 51.05217]
+                "coordinates": [-114.07608134165716,51.0433709761605]
             },
             "type": "Feature",
             "properties": {
@@ -92,6 +92,18 @@ var markers = {
             "id": "Drumheller"
         },
 
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [-115.570679,51.177944]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "...",
+                "color": "Yellow"
+            },
+            "id": "Banff"
+        },
+	    
 	    {"geometry": {
                 "type": "Point",
                 "coordinates": [-115.555573,51.122619]
@@ -179,6 +191,18 @@ var markers = {
 
 	    {"geometry": {
                 "type": "Point",
+                "coordinates": [-115.8656709,50.1356368]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "...",
+                "color": "Blue"
+            },
+            "id": "Findlay Falls"
+        },
+
+	    {"geometry": {
+                "type": "Point",
                 "coordinates": [-116.0734,50.6200]
             },
             "type": "Feature",
@@ -186,7 +210,19 @@ var markers = {
                 "popupContent": "...",
                 "color": "Blue"
             },
-            "id": "Radium"
+            "id": "Radium Hot Springs"
+        },
+
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [-115.837398,51.254825]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "...",
+                "color": "Blue"
+            },
+            "id": "Banff - Johnston Canyon"
         },
 
 	    {"geometry": {
@@ -210,7 +246,7 @@ var markers = {
                 "popupContent": "...",
                 "color": "Green"
             },
-            "id": "Vietnam"
+            "id": "Vietnam - HCMC"
         },
 
     ]
