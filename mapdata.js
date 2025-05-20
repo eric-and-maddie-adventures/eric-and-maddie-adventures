@@ -134,7 +134,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "In December 2023, we went to Costa Rica to visit your mom & Rebecca. We spent a lot of time at Lola's. :) Lola is the name of the pig that they have as a pet in the restaurant. We only really took a dip in the ocean. We did most of our swimming in their nice pool at the Playa de ... Hacienda I think it was called? We also went on a snorkelling tour that was very cool despite me getting a bit boatsick haha. We saw sea turtles!",
+                "popupContent": "In December 2023, we went to Costa Rica to visit your mom & Rebecca. We spent a lot of time at Lola's. :) Lola is the name of the pig that they have as a pet in the restaurant. We only really took a dip in the ocean. We did most of our swimming in their nice pool at the Hacienda Pinnilla I think it was called? We also went on a snorkelling tour that was very cool despite me getting a bit boatsick haha. We saw sea turtles!",
                 "color": "Yellow"
             },
             "id": "Costa Rica - Lola's"
