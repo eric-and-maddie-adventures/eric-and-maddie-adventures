@@ -12,18 +12,7 @@
     <!--url>https://www.google.co.uk/maps/dir/Guanacaste Province, Tamarindo, Costa Rica/Tamarindo Airport (TNO), 857M+MWP, Guanacaste Province, Villareal, Costa Rica/Hacienda Pinilla, Carretera a Playa Avellanas, Guanacaste Province, Tamarindo, 50309, Costa Rica/@10.2861045,-85.8375264,14z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x8f9e39409203c30f:0xbb189f5e2cc1f893!2m2!1d-85.8411525!2d10.2975721!1m5!1m1!1s0x8f9e397966fe2c61:0xb5f390b01554b39e!2m2!1d-85.8151667!2d10.3142056!1m5!1m1!1s0x8f9e38b3f191f1d1:0x176069b2c09ff70d!2m2!1d-85.836523!2d10.2582667!3e0?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoASAFQAw==&hl=en</url-->
     <time>2025-05-20T21:49:32Z</time>
   </metadata>
-  <wpt lat="10.2975721" lon="-85.8411525">
-    <name>Guanacaste Province</name>
-    <desc>Tamarindo, Guanacaste Province, Costa Rica</desc>
-  </wpt>
-  <wpt lat="10.3142056" lon="-85.8151667">
-    <name>Tamarindo Airport (TNO)</name>
-    <desc>Tamarindo Airport, 857M+MWP, Guanacaste Province, Villareal, Costa Rica</desc>
-  </wpt>
-  <wpt lat="10.2582667" lon="-85.836523">
-    <name>Hacienda Pinilla</name>
-    <desc>Hacienda Pinilla, Carretera a Playa Avellanas, Guanacaste Province, Tamarindo, 50309, Costa Rica</desc>
-  </wpt>
+
 <trk>
   <name>Guanacaste Province to Hacienda Pinilla</name>
   <number>1</number>
