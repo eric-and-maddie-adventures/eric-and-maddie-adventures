@@ -62,7 +62,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "We have been to Toronto many times! In 2022, we got a free hotel room at Hotel X paid for by UNB because I spoke at the Arcticnet annual conference. In Sept 2024 we saw the Blue Jays vs the Mets. We also went to The Ham mexican-asian fusion restaurant & got soft-shell crab for the first time. In January 2025 (verify this date), we took the train to see the Lion King. It ended up getting cancelled due to a performer being injured, so we got our tickets refunded & technically got to see the first bit for freeee muahaha. We also got very nice eggs benny as room service to our fancy hotel.",
+                "popupContent": "We have been to Toronto many times! We have been to Colin's parents' condo at 1 King West a couple times. In 2022, we got a free hotel room at Hotel X paid for by UNB because I spoke at the Arcticnet annual conference. In Sept 2024 we saw the Blue Jays vs the Mets. We also went to The Ham mexican-asian fusion restaurant & got soft-shell crab for the first time. In February 2025 (for Valentines day), we took the train to see the Lion King. It ended up getting cancelled due to a performer being injured, so we got our tickets refunded & technically got to see the first bit for freeee muahaha. We also got very nice eggs benny as room service to our fancy hotel.",
                 "color": "Purple"
             },
             "id": "Toronto"
@@ -74,7 +74,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We have been to Niagara-on-the-Lake twice together. :) We rented e-bikes and rode the trail by the water. We also got nice drinks at the fancy golf course by the water. The view looks very surreal. It reminds me of Sisko's dreams of Jennifer by the water in DS9. We biked around here once by ourselves and once with Furlan.",
                 "color": "Purple"
             },
             "id": "Niagara-on-the-Lake"
