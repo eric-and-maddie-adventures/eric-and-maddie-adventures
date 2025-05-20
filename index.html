@@ -97,9 +97,19 @@ L.control.Legend({
     position: "bottomright",
     legends: [{
         label: "Marker1",
-        type: "image",
-        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3OsmfbBG_lMP2YPEWz-TvF-jxu0ZQXFDpjQ&s",
-    }]
+        type: "polygon",
+                sides: 4,
+                color: "#FF0000",
+                fillColor: "#FF0000",
+                weight: 2
+    }, {
+                label: "Square",
+                type: "polygon",
+                sides: 4,
+                color: "#FF0000",
+                fillColor: "#FF0000",
+                weight: 2
+            }]
 }).addTo(map);
 
 
