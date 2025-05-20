@@ -207,7 +207,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We stayed here in September of 2024, at the Raging Elk Lodge. They had a map of the world shower curtain that inspired the one in our bathroom. :) We rented electric mountain bikes and went up the Snoop Lion trail. It was super fun!! And we also ended up getting a sweet discount because your bike started malfunctioning right at the end of our ride. We also went on a nice walk to Fairy Creek Falls. This was waterfall 1/3 on our roadtrip. It was very peaceful. Looked like a nice waterfall to take a shower in honestly haha. We also climbed right up to the top of it! We also got fancy lattes from a coffee shop downtown, and we went twice to get eggs benny from the same spot by the river. There was a helicopter flying up & down vertically over and over. I still wonder what the heck he was doing.",
                 "color": "Blue"
             },
             "id": "Fernie"
@@ -219,7 +219,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "This was waterfall 2/3 on our roadtrip. I think it was the best one. We stopped for a while on a rock leading up to it just to rest and talk in the sun, which you said was the best 'bench' of the trip. There was also a great sitting rock in front of the falls themselves. I ate my leftover eggs benny there from the previous day in Fernie. This was a very nice spot to stop and watch the water. We also saw people panning for gold. We started looking around for gold rocks after that, and found our 'fool's gold' haha. Not sure if it's even pyrite. It only looked gold when it was wet.",
                 "color": "Blue"
             },
             "id": "Findlay Falls"
@@ -231,7 +231,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We drove here on the same day as we visited Findlay Falls, so it was pretty late when we got in. But we still decided to walk the trail out to the hot springs instead of driving, or walking the shorter route down the highway through the canyon. It ended up being a very good decision, since we saw mountain rams right up close!! The views here were also grand. The hot springs themselves were totally worth it, and we ended up with a good hour or two to soak. We did just get pizza after though because we were so tired haha.",
                 "color": "Blue"
             },
             "id": "Radium Hot Springs"
@@ -243,7 +243,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "This spot was a bit tourist-crowded since it is s close to Banff. It was really gorgeous azure-blue water though. We ate our leftover pizza and had a nice little walk to waterfall 3/3 before we made our way to Canmore",
                 "color": "Blue"
             },
             "id": "Banff - Johnston Canyon"
@@ -255,7 +255,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We stayed at a very lovely chalet in Canmore in Sept 2024. It had a hot tub, which I think we went in like 4x over the course of 24h haha. We made a very classy charcuterie board on the first night, with Eric's baked brie recipe. We also got Snoop Dogg/Marth Stewart brand wines to keep with the Snoop Lion trail theme. We watched a bit of Luke Kwon golf and castle tours on TV while Eric prepared our nice meal. The next day, we got bison skewers, eggs and potatoes from a fancy market shop. Those are still the best eggs I've ever had. Also, my first time BBQ'ing! :)",
                 "color": "Blue"
             },
             "id": "Canmore"
@@ -267,7 +267,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "...desciption and markers to come!!",
                 "color": "Green"
             },
             "id": "Vietnam - HCMC"
