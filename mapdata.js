@@ -110,7 +110,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "We have visited Banff twice now. The first time was on our 2024 winter Calgary trip, when we went to Sulpher Mountain. The second time was on our 2024 Fernie roadtrip. Both times we only just passed through. It's a bit too crowded & touristy for either of our taste I think. But it is still neat to see in passing.",
+                "popupContent": "We have visited Banff twice now. The first time was on our 2023 winter Calgary trip, when we went to Sulpher Mountain. The second time was on our 2024 Fernie roadtrip. Both times we only just passed through. It's a bit too crowded & touristy for either of our taste I think. But it is still neat to see in passing.",
                 "color": "Yellow"
             },
             "id": "Banff"
