@@ -75,7 +75,7 @@ var markers = {
             "type": "Feature",
             "properties": {
                 "popupContent": "We have been to Niagara-on-the-Lake twice together. :) We rented e-bikes and rode the trail by the water. We also got nice drinks at the fancy golf course by the water. The view looks very surreal. It reminds me of Sisko's dreams of Jennifer by the water in DS9. We biked around here once by ourselves and once with Furlan.",
-                "color": "Purple"
+                "color": "Yellow"
             },
             "id": "Niagara-on-the-Lake"
         },
