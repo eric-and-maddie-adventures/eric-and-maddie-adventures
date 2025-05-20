@@ -62,7 +62,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "We have been to Toronto many times! We have been to Colin's parents' condo at 1 King West a couple times. In 2022, we got a free hotel room at Hotel X paid for by UNB because I spoke at the Arcticnet annual conference. In Sept 2024 we saw the Blue Jays vs the Mets. We also went to The Ham mexican-asian fusion restaurant & got soft-shell crab for the first time. In February 2025 (for Valentines day), we took the train to see the Lion King. It ended up getting cancelled due to a performer being injured, so we got our tickets refunded & technically got to see the first bit for freeee muahaha. We also got very nice eggs benny as room service to our fancy hotel.",
+                "popupContent": "We have been to Toronto many times! We have been to Colin's parents' condo at 1 King West. In 2022, we got a free hotel room at Hotel X paid for by UNB because I spoke at the Arcticnet annual conference. In Sept 2024 we saw the Blue Jays vs the Mets. We also went to The Ham - a mexican-asian fusion restaurant - and got soft-shell crab for the first time. In February 2025 (for Valentines day), we took the train to see the Lion King. It ended up getting cancelled due to a performer being injured, so we got our tickets refunded & technically got to see the first bit for freeee muahaha. We also got very nice eggs benny as room service to our fancy hotel.",
                 "color": "Purple"
             },
             "id": "Toronto"
@@ -86,7 +86,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We have been to Calgary twice together. The first time was in February 2023 when you visited me while I was doing my PGeo course at UCalgary. I was staying in a super crappy basement rental, but we rented a fancy apartment downtown at the corner of 6th & 10th. We also rented a car to explore Drumheller and Banff! We also went to the whiskey bar in Kensington and got brisket. The second time we were in Calgary was when we took our long roadtrip to Fernie. We started out at a regular hotel across from the football stadium. We visited the Devonian Gardens at the mall downtown, and also went to a Western clothing store where you found me my grey Kes-coded dress. :) Then at the end of our roadtrip, we stayed at the same apartment on 6th & 10th (not even intentionally!!) where we confessed our feelings, cuddled and kissed. Then we had a beautiful night watching the sunset at the Peace Bridge. Oh, and the next day we went to the cat cafe, and then the zoo to see my penguin friends. And we also saw hippo toes up close. The whole trip was 10/10.",
                 "color": "Yellow"
             },
             "id": "Calgary"
@@ -98,7 +98,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We went here in 2023 on our first Alberta trip. We saw the Royal Tyrell Museum with its huge collection of dinosaur bones. We also stopped at the hoodoos. Even though it was snowy, you could still see all the layers. In fact, it actually looked nicer than normal because there was an extra layer of white on top. The drive out was also amazing. Normally that drive is quite boring because it's flat farmlands. But the day that we went was whiteout conditions. Not stormy, so it wasn't like it was a scary drive, but it was just white in all directions like a dream.",
                 "color": "Yellow"
             },
             "id": "Drumheller"
@@ -110,7 +110,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We have visited Banff twice now. The first time was on our 2024 winter Calgary trip, when we went to Sulpher Mountain. The second time was on our 2024 Fernie roadtrip. Both times we only just passed through. It's a bit too crowded & touristy for either of our taste I think. But it is still neat to see in passing.",
                 "color": "Yellow"
             },
             "id": "Banff"
@@ -122,7 +122,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We climbed Sulphur Mountain in winter of 2023. It kicked my butt haha. I am so glad we got to the top though. We were both very tired, and you had hurt your knee a bit. But there is a fancy bar at the top of the mountain that I tried to keep a secret until we got close haha.",
                 "color": "Yellow"
             },
             "id": "Banff - Sulphur Mountain"
@@ -134,7 +134,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "In December 2023, we went to Costa Rica to visit your mom & Rebecca. We spent a lot of time at Lola's. :) Lola is the name of the pig that they have as a pet in the restaurant. We only really took a dip in the ocean. We did most of our swimming in their nice pool at the Playa de ... Hacienda I think it was called? We also went on a snorkelling tour that was very cool despite me getting a bit boatsick haha. We saw sea turtles!",
                 "color": "Yellow"
             },
             "id": "Costa Rica - Lola's"
@@ -146,7 +146,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We visited the city of Tamarindo one night with Katherine & Rebecca when we went to get Indian food. We did a bit of clothes shopping and also visited their friend's art gallery.",
                 "color": "Yellow"
             },
             "id": "Costa Rica - Tamarindo"
@@ -158,7 +158,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We visited PEI in May 2024 as a bit of a birthday trip before I graduated from UNB with my master's (yaaaay). Even though it is not the typical time of year that people visit, the colours were still green and vibrant, just a bit windy & chilly. We saw a few different lighthouses, walked out to the beach at low tide, found a whale vertebrae, and ate lots of yummy seafood :). Please remind me of the name of the restaurant that we went to by the sea so that I can add it as a marker! I think I got the roadtrip linepath a bit messed up for this one as well. I remember that we attempted to go from East Point to North Point, but got a bit turned around lol.",
                 "color": "Blue"
             },
             "id": "Charlottetown"
@@ -170,7 +170,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We visited Fredericton in May 2024 for my Master's graduation from UNB. It was a bit hectic tbh, but I am very glad that you came.",
                 "color": "Blue"
             },
             "id": "Fredericton"
@@ -183,7 +183,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We have been to Niagara-on-the-Lake twice together. :) We rented e-bikes and rode the trail by the water. We also got nice drinks at the fancy golf course by the water. The view looks very surreal. It reminds me of Sisko's dreams of Jennifer by the water in DS9. We biked around here once by ourselves and once with Furlan.",
                 "color": "Blue"
             },
             "id": "Niagara pt2 w Furlan"
@@ -195,7 +195,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...",
+                "popupContent": "We went to Vulcan, AB as the first stop on our Rocky Mountain roadtrip in fall 2024! It was a perfect kick-off. Not only did we visit the Star Trek museum, which was great and had a lot of movie props and good merch. But the entire town is decorated thematically as well. They had a mural with all the doctors. The streetlights had starships on top. There was a giant USS Enterprise monument. And a handful of Hollywood-style walk of fame stars where cast members had visited the town. We should go back for Vul-Con. :)",
                 "color": "Blue"
             },
             "id": "Vulcan"
