@@ -59,6 +59,7 @@ const basemaps = {
 
 	};
 
+//keeping this part in case i wanna add checkboxes to check layers on/off later (maybe check on/off by year?)
 var overlays = {
   "GEBCO - Contours": L.tileLayer(
     "https://tiles.arcgis.com/tiles/C8EMgrsFcRFL6LrL/arcgis/rest/services/GEBCO_contours/MapServer/tile/{z}/{y}/{x}", {
@@ -78,7 +79,7 @@ var overlays = {
 };
 
 var layerControl = L.control
-  .layers(basemaps, overlays, {
+  .layers(basemaps, {
     position: "topright",
     collapsed: false
   })
