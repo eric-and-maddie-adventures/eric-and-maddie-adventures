@@ -10,6 +10,18 @@ var markers = {
 
 	    {"geometry": {
                 "type": "Point",
+                "coordinates": [-80.512125,43.462183]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "",
+                "color": "Red"
+            },
+            "id": "Home"
+        },
+		    
+	    {"geometry": {
+                "type": "Point",
                 "coordinates": [-80.3776,44.3372]
             },
             "type": "Feature",
