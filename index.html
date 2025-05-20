@@ -78,8 +78,11 @@ var overlays = {
   }),
 };
 
+var overlay = {
+};
+
 var layerControl = L.control
-  .layers(basemaps {
+  .layers(basemaps, overlay, {
     position: "topright",
     collapsed: false
   })
