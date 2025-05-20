@@ -260,7 +260,19 @@ var markers = {
             },
             "id": "Canmore"
         },
-
+	    
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [-78.94024869507368,43.89979551857338]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "We went to Whitby in December 2024 for family Christmas at my Aunt Janet's house. We played Bunko, ate my Aunt Jan's fantastic cooking & you met my grandparents.",
+                "color": "Blue"
+            },
+            "id": "Canmore"
+        },
+	    
 	    {"geometry": {
                 "type": "Point",
                 "coordinates": [106.68316724771255,10.771008051301273]
