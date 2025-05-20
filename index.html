@@ -223,7 +223,7 @@ new L.GPX(gpxurl4, gpxoptions4).addTo(map);
 const gpxurl5 = 'https://raw.githubusercontent.com/eric-and-madz-adventures/eric-and-madz-adventures.github.io/refs/heads/main/roadtrip-niagara.gpx';
 const gpxoptions5 = {
         async: true,
-        polyline_options: { color: 'purple', weight: 5 },
+        polyline_options: { color: 'yellow', weight: 5 },
 	markers: {
     		startIcon: 'https://user-images.githubusercontent.com/6753949/41509588-16212fda-721c-11e8-8650-dc1cdd619072.png',
     		endIcon: 'https://user-images.githubusercontent.com/6753949/41509588-16212fda-721c-11e8-8650-dc1cdd619072.png',
@@ -241,6 +241,17 @@ const gpxoptions6 = {
   		},
       };
 new L.GPX(gpxurl6, gpxoptions6).addTo(map);
+
+const gpxurl7 = 'https://raw.githubusercontent.com/eric-and-madz-adventures/eric-and-madz-adventures.github.io/refs/heads/main/roadtrip-tamarindo.gpx';
+const gpxoptions7 = {
+        async: true,
+        polyline_options: { color: 'yellow', weight: 5 },
+	markers: {
+    		startIcon: 'https://user-images.githubusercontent.com/6753949/41509588-16212fda-721c-11e8-8650-dc1cdd619072.png',
+    		endIcon: 'https://user-images.githubusercontent.com/6753949/41509588-16212fda-721c-11e8-8650-dc1cdd619072.png',
+  		},
+      };
+new L.GPX(gpxurl7, gpxoptions7).addTo(map);
 	
 //click for lat-long. Helps me create markers, but annoying otherwise.
 //map.addEventListener('click', function (e)  {
