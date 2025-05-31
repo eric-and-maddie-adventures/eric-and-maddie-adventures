@@ -279,7 +279,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "411/43 Nguyễn Đình Chiểu, Phường 5, Quận 3. This is the super pretty airbnb that we stayed at in Ho Chi Minh City. It had a beautiful patio with lots of flowering plants. It also had a giant bathtub + shower with a skylight surrounded by plants that made it like it was outdoors. We definitely took advantage of the nice tub/shower haha. It was nice staying in a part of town that people actually live in rather than doing the tourist hotel thing. The traffic was overwhelming at times, so it was good being able to return to our quiet little sanctuary when we needed a break from it. The ladies across the street also ran a teeny little cafe out of their house! There were tons of teeny tiny shops that people set up out front of their homes.",
+                "popupContent": "411/43 Nguyễn Đình Chiểu, Phường 5, Quận 3. This is the super pretty airbnb that we stayed at in Ho Chi Minh City. It had a beautiful patio with lots of flowering plants. It also had a giant bathtub + shower with a skylight surrounded by plants & rocks that made it like it was outdoors. We definitely took advantage of the tub/shower haha. It was nice staying in a part of town that people actually live in rather than doing the tourist hotel thing. The traffic was overwhelming at times, so it was good being able to return to our quiet little sanctuary when we needed a break from it. The ladies across the street also ran a teeny little cafe out of their house! There were tons of teeny tiny shops that people set up out front of their homes.",
                 "color": "Green"
             },
             "id": "Vietnam - HCMC"
@@ -334,7 +334,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "We went to this park on my replacement birthday and there was an orchid festival on! It was the perfect time to go. The amount of flowers on display was crazy. And there were so many ladies in pretty, colourful dresses. We also walked here (boldly - nay, bravely!!) from the eggy coffee place, and that was probably the longest walk we took on the whole trip lol. Vietname is really not suitable for walking.",
+                "popupContent": "We went to this park on my replacement birthday and there was an orchid festival on! It was the perfect time to go. The amount of flowers on display was crazy. And there were so many ladies in pretty, colourful dresses. We also walked here (boldly - nay, bravely!!) from the eggy coffee place, and that was probably the longest walk we took on the whole trip lol. Vietnam is really not suitable for walking.",
                 "color": "Green"
             },
             "id": "Tao Đàn Park"
