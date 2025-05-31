@@ -275,15 +275,126 @@ var markers = {
 	    
 	    {"geometry": {
                 "type": "Point",
-                "coordinates": [106.68316724771255,10.771008051301273]
+                "coordinates": [106.68321561575631,10.770994383636856]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "...desciption and markers to come!!",
+                "popupContent": "411/43 Nguyễn Đình Chiểu, Phường 5, Quận 3. This is the super pretty airbnb that we stayed at in Ho Chi Minh City. It had a beautiful patio with lots of flowering plants. It also had a giant bathtub + shower with a skylight surrounded by plants that made it like it was outdoors. We definitely took advantage of the nice tub/shower haha. It was nice staying in a part of town that people actually live in rather than doing the tourist hotel thing. The traffic was overwhelming at times, so it was good being able to return to our quiet little sanctuary when we needed a break from it. The ladies across the street also ran a teeny little cafe out of their house! There were tons of teeny tiny shops that people set up out front of their homes.",
                 "color": "Green"
             },
             "id": "Vietnam - HCMC"
         },
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [106.72917627608416,10.811559194244523]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "Ok technically this is the apartment down the street from Joel. But it is owned by the same guy so he's allowed to use the rooftop pool! It had a great view overlooking the city where you could see Landmark 81. It was so nice being able to cool off for a swim after disc golfing all morning!! We also ate some bomb ass spring rolls with peanut sauce from a stand on the street that were like $5 for 15.",
+                "color": "Green"
+            },
+            "id": "Joel's Apartment"
+        },
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [106.73509960773677,10.7828573511774]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "We played 18 holes here with Joel and his buddies. I got bitten by lots of red ants haha. I also totally lost my disc in the water. I thought it was gone forever, but the Vietnamese guy that came along was able to find it for me!! Bless him.",
+                "color": "Green"
+            },
+            "id": "HCMC disc golf park"
+        },
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [106.70309743301335,10.776589928971438]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "We saw an acrobat show here on my replacement birthday. :) It is a super cute and compact old building. The show was pretty neat. I think they were trying to kinda walk you through the history of Vietnam, starting with using traditional bamboo implements, pretending to be animals, then getting into rapid industrialization (with a little beatboxing/bboy section haha), then returning to more traditional culture, but with a new take on it. The end bit had an aerial hoop and a cyr wheel (my fave!!)",
+                "color": "Green"
+            },
+            "id": "Saigon Opera House"
+        },
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [106.69009910698077,10.768641391621813]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "We got eggs benedict here twice cause it was so good! And it overlooks the park. They also do 'eggy coffee', which sounds gross but is actually really good.",
+                "color": "Green"
+            },
+            "id": "Eggy cafe (Little Hanoi)"
+        },
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [106.69198136070564,10.774401550048246]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "We went to this park on my replacement birthday and there was an orchid festival on! It was the perfect time to go. The amount of flowers on display was crazy. And there were so many ladies in pretty, colourful dresses. We also walked here (boldly - nay, bravely!!) from the eggy coffee place, and that was probably the longest walk we took on the whole trip lol. Vietname is really not suitable for walking.",
+                "color": "Green"
+            },
+            "id": "Tao Đàn Park"
+        },
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [106.69803011554109,10.77243941524512]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "We went here twice, looking for clothes and trinkets. We also drank coconut water right from the coconut shell with straws :)",
+                "color": "Green"
+            },
+            "id": "Bến Thành Market"
+        },
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [106.70779357725245,10.784853538356124]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "This museum was way better than I thought based on the online reviews! I mean, yeah it was a bit hokey pokey. But they had a really extensive collection of rocks and minerals. And none of the animated bombardment that Western museums employ to trick kids into learning. Just good old fashioned rocks on pedestals. They also sold fancy jewerlry in the shop next door.",
+                "color": "Green"
+            },
+            "id": "Geology Museum"
+        },
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [106.70643388101067,10.78775114537532]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "The zoo was kind of sad honestly. But we mainly went for the gardens anyway. The gardens were surprisingly difficult to locate though!! We only ended up finding them when we were already wiped out from walking around all morning. They had what looked like a hundred bonsais though. Each of them with its own unique features. The highlight of the zoo part I would say was feeding the weird looking antelope thing a carrot. :) A very nice little boy handed me a few of his carrots so that I could join in. What an adorable and polite young man.",
+                "color": "Green"
+            },
+            "id": "Botanical Garden + Zoo"
+        },
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [106.692107375587361,10.779446544731757]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "To be honest, the war museum left me with a lot of questions still about Vietnam's history that I had to google after we left. It definitely achieved its purpose though of highlighting how violent & brutal the wars were.",
+                "color": "Green"
+            },
+            "id": "War Remnants Museum"
+        },
+	    {"geometry": {
+                "type": "Point",
+                "coordinates": [106.70801450992901,10.767514583719297]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "We actually did two tours of the Saigon River! The first one was just on a little boat, but we liked it so much that you booked a second, even better cruise! I'm glad we did the little boat first cause the big boat made the one I picked look like crap haha. We did meet another Canadian on the little boat though! The second cruise that we did had a super fancy 3-course meal as well. It was prawn bisque, then steak with potato pavé, and a mango panna cotta for dessert. It felt so fancy. It was also nice doing the first cruise during the daytime, and the second one at night so that we could see all the buildings lit up.",
+                "color": "Green"
+            },
+            "id": "Saigon Princess Riverboat Tour"
+        },
+
 
     ]
 };
