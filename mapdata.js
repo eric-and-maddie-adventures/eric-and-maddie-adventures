@@ -270,7 +270,7 @@ var markers = {
                 "popupContent": "We went to Whitby in December 2024 for family Christmas at my Aunt Janet's house. We played Bunko, ate my Aunt Jan's fantastic cooking & you met my grandparents.",
                 "color": "Blue"
             },
-            "id": "Canmore"
+            "id": "Whitby"
         },
 	    
 	    {"geometry": {
