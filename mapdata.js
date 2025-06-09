@@ -301,7 +301,7 @@ var markers = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "We played 18 holes here with Joel and his buddies. I got bitten by lots of red ants haha. I also totally lost my disc in the water. I thought it was gone forever, but the Vietnamese guy that came along was able to find it for me!! Bless him.",
+                "popupContent": "We played a game of disc golf here with Joel and his buddies. I got bitten by lots of red ants haha. I also totally lost my disc in the water. I thought it was gone forever, but the Vietnamese guy that came along was able to find it for me!! Bless him.",
                 "color": "Green"
             },
             "id": "HCMC disc golf park"
